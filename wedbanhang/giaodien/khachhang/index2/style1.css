@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1500px;
+    height: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.header h1 {
+    font-size: 24px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.product-details img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.product-details p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+
+
+.message {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+.message input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+
+.payment-summary {
+position: fixed;
+bottom: 20px;
+left: 0;
+right: 0;
+background-color: #ffffff;
+padding: 20px;
+border-top: 1px solid #ddd;
+box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+z-index: 1000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+font-size: 14px;
+}
+
+.payment-summary > div {
+flex: 1;
+padding: 0 10px;
+}
+
+.payment-method,
+.address,
+.coupon,
+.summary-detail {
+border-right: 1px solid #000;
+padding-right: 20px;
+}
+
+.payment-method a,
+.address a {
+color: #007bff;
+font-size: 12px;
+text-decoration: none;
+margin-left: 5px;
+}
+
+.payment-method,
+.address {
+text-align: left;
+}
+
+.coupon {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.coupon input[type="text"] {
+width: 100%;
+padding: 5px;
+border-radius: 5px;
+border: 1px solid #ddd;
+}
+
+.summary-detail p {
+margin: 5px 0;
+}
+
+.total {
+font-size: 18px;
+font-weight: bold;
+color: red;
+margin-right: 20px;
+padding-left: 20px;
+}
+
+.btn-payment {
+background-color: black;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-weight: bold;
+}

@@ -1,0 +1,109 @@
+.tien-ich-1 {
+    padding: 20px;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: rgb(245, 245, 247);
+}
+
+.container-tien-ich {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 200px;
+    background-color: rgb(245, 245, 247);
+}
+
+.card {
+    margin: 10px;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(104, 204, 69);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.highlight {
+    color: rgb(104, 204, 69);
+    font-weight: bold;
+}
+
+.card-1 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.icon-1 {
+    font-size: 30px;
+    color: #3b82f6;
+    margin-bottom: 10px;
+}
+
+.text-1 {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.text-1 strong {
+    color: #1d4ed8;
+    font-weight: bold;
+}
+
+.card-2 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.icon-2 {
+    margin-bottom: 10px;
+    color: rgb(127, 212, 97);
+    font-size: 30px;
+}
+
+.text-2 {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.container-tien-ich div {
+    transition: transform 0.5s;
+}
+
+.container-tien-ich div:hover {
+    transform: scale(1.07);
+}

@@ -1,0 +1,54 @@
+.footer-1 {
+    padding: 20px;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: rgb(245, 245, 247);
+}
+
+/* Định dạng chung cho footer */
+footer {
+    background-color: rgb(245, 245, 247);
+    padding: 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+/* Định dạng cho phần nội dung footer */
+.footer-content {
+    margin-bottom: 15px;
+}
+
+/* Link trong footer */
+.footer-content a,
+.footer-links a {
+    color: #0071e3;
+    text-decoration: none;
+}
+
+.footer-content a:hover,
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Định dạng cho phần cuối footer */
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Links ngang trong footer */
+.footer-links {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    margin: 0 5px;
+}
+
+/* Định dạng cho tên quốc gia */
+.country {
+    color: #666;
+}

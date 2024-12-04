@@ -1,0 +1,95 @@
+.the-he {
+    position: relative;
+    background-color: rgb(245, 245, 247);
+}
+
+.the-he-1 {
+    padding: 20px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.image-container-the-he-moi {
+    position: relative;
+    display: flex;
+    width: 100%;
+    /* background-color: rgb(245, 245, 247); */
+    overflow: hidden;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.thong-tin>p {
+    font-size: 15px;
+}
+
+.thong-tin>p:first-child {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.san-pham-the-he-moi {
+    padding: 15px;
+    margin: 2px;
+    position: relative;
+}
+
+.thong-tin {
+    z-index: 1;
+    top: 12%;
+    left: 13%;
+    position: absolute;
+    transition: transform 0.5s;
+}
+
+.prev {
+    position: absolute;
+    top: 50%;
+    z-index: 30;
+    width: 60px;
+    height: 60px;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.next {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    z-index: 30;
+    width: 60px;
+    height: 60px;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.container-the-he:hover .next {
+    visibility: visible;
+    width: 75px;
+    height: 75px;
+}
+
+.container-the-he:hover .prev {
+    visibility: visible;
+    width: 75px;
+    height: 75px;
+}
+
+.san-pham-the-he-moi>img {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    transition: transform 0.5s;
+    margin: 15px;
+    border-radius: 14px;
+    box-shadow: 0 0 25px 0.5px rgba(181, 178, 178, 0.8);
+    z-index: 0;
+}
+
+.san-pham-the-he-moi>img:hover {
+    transform: scale(1.07);
+}
+
+.san-pham-the-he-moi>img:hover+.thong-tin {
+    transform: scale(1.07);
+}

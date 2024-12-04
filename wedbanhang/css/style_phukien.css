@@ -1,0 +1,106 @@
+.phu-kien {
+    position: relative;
+    background-color: rgb(245, 245, 247);
+}
+
+.phu-kien-1 {
+    padding: 20px;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: rgb(245, 245, 247);
+}
+
+.image-container-phu-kien {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: rgb(245, 245, 247);
+    overflow: hidden;
+}
+
+.image-container-phu-kien>div {
+    background-color: rgb(245, 245, 247);
+    padding: 3px;
+    margin: 7px;
+    transition: transform 0.5s;
+}
+
+.image-container-phu-kien>div>a {
+    text-decoration: none;
+}
+
+.image-container-phu-kien>div:hover {
+    transform: scale(1.07);
+}
+
+#trai {
+    position: absolute;
+    top: 50%;
+    z-index: 30;
+    width: 60px;
+    height: 60px;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+#phai {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    z-index: 30;
+    width: 60px;
+    height: 60px;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.container-phu-kien:hover #phai {
+    visibility: visible;
+    width: 75px;
+    height: 75px;
+}
+
+.container-phu-kien:hover #trai {
+    visibility: visible;
+    width: 75px;
+    height: 75px;
+}
+
+.card {
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 16px;
+}
+
+.badge {
+    color: #d35400;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.product-title-phu-kien {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 8px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.price {
+    font-size: 20px;
+    color: #333333;
+    font-weight: 200;
+}

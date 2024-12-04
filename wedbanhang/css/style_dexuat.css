@@ -1,0 +1,38 @@
+.de-xuat {
+    display: flex;
+    background-color: rgb(245, 245, 247);
+    flex-wrap: wrap;
+}
+
+.de-xuat div {
+    margin: 20px;
+    padding: 20px;
+    margin-right: 100px;
+    overflow: hidden;
+}
+
+.de-xuat>.de-xuat-1>.de-xuat-1-1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.de-xuat>.de-xuat-1>.de-xuat-1-1>.de-xuat-1-1-1 {
+    color: rgb(110, 110, 115);
+}
+
+.de-xuat>.de-xuat-1>.de-xuat-1-2 {
+    display: flex;
+
+}
+
+.de-xuat>.de-xuat-1>.de-xuat-1-2 div {
+    background-color: yellow(245, 245, 247);
+    margin: 5px;
+    padding: 3px;
+    text-align: center;
+}
+
+.de-xuat>.de-xuat-1>.de-xuat-1-2>div>img {
+    width: 108px;
+    height: 66px;
+}

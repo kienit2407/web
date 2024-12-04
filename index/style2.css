@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ddd;
+    margin: 0;
+    padding: 0;
+}
+.container {   
+    max-width: 1500px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 70px;
+}
+.header button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.header h2 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    flex-grow: 1;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 70px;
+}
+.menu h2 {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius:10px ;
+}
+.product img {
+    width: 80px;
+    border-radius: 5px;
+}
+.product-details {
+    margin-left: 20px;
+}
+.product-details h3 {
+    margin: 0;
+    font-size: 18px;
+}
+.product-options {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    color: #000;
+}
+.product-options select {
+    background-color: #000; 
+    color: #fff; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+.price {
+    width: 10%;
+    text-align:left;
+    color: red;
+    font-weight: bold;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quantity input {
+    width: 40px;
+    text-align: center;
+}
+.allprice {
+    width: 20%;
+    text-align: right;
+    color: red;
+    font-weight: bold;
+}
+
+.delete {
+    list-style: none;
+    width: 20%;
+    text-align: center;
+}
+.footer {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+.footer .total-price {
+    color: red;
+    font-size: 24px;
+}
+.footer button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.coupon {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.coupon button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

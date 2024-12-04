@@ -1,0 +1,54 @@
+.container-gio-hang {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    visibility: hidden;
+    z-index: 1;
+    background-color: rgb(245, 245, 247);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.login-link {
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.profile-section {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 30%;
+}
+
+.profile-section ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.profile-section ul li {
+    margin-bottom: 15px;
+}
+
+.profile-section ul li a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+/*Sự kiện hover*/
+.gio-hang:hover .container-gio-hang {
+    visibility: visible;
+}
+
+.gio-hang.container-gio-hang:hover {
+    visibility: visible;
+}
